@@ -1,0 +1,50 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7rem;
+    align-items: center;
+    height: 9.99vh;
+
+    &__left {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+    &__img {
+        width: 1.8rem;
+    }
+    &__about {
+        display: flex;
+        gap: 2rem;
+	font-size: $large;
+    }   
+    &__left-shop {
+        display: flex;
+        gap: 2rem;
+	font-size: $large;
+    }
+    &__buttons {
+        display: flex;
+        gap: 3rem;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .nav__menu {
+        visibility: hidden;
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .nav {
+        margin: 0 2rem;
+    
+        &__buttons {
+            gap: 0.8rem;
+        }
+        &__left {
+            font-size: $medium;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.button--primary, .button--secondary {
+    width: fit-content;
+    height: 2.4rem;
+    padding: 0.625rem 1.25rem;
+    font-family: $font-mono;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.button--primary {
+    background-color: $white;
+    border: 2px solid $quick-silver;
+    color: $quick-silver;
+}
+.button--secondary {
+    background-color: $shimmy-shamrock;
+    border: none;
+    color: $white;
+}
+.button--primary:hover {
+    background-color: $white;
+    border: 2px solid $outer-space;
+    color: $outer-space;
+}
+.button--secondary:hover {
+    background-color: $turqoise-green;
+    color: $spanish-gray;
+}
